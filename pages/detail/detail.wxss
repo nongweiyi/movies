@@ -1,0 +1,42 @@
+/* pages/detail/detail.wxss */
+.content{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-size: 28rpx;
+}
+.name{
+    font-size: 32rpx;
+    margin-bottom: 5px;
+}
+.mar{
+    padding: 20px 20px 0px 20px;
+}
+.movie-pic{
+    display: flex;
+    width: 100%;
+    align-items:center;
+}
+.movie-pic image{
+    margin: 0 auto;
+    mode:"aspectFit";
+}
+.movie-info{
+     position: relative;
+}
+text{
+    line-height: 46rpx;
+}
+.casts-pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.casts-pic image{
+    padding-right: 5px;
+    mode:"widthFix";
+    
+}
+.average{
+    font-size: 32rpx;
+}

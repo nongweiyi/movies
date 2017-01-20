@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/hot/hot",
+    "pages/reconmend/reconmend",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "backgroundColor": "#292929",
+    "list": [{
+      "pagePath": "pages/hot/hot",
+      "text": "热映",
+      "iconPath":"assets/img/dy.png",
+      "selectedIconPath":"assets/img/dy-1.png"
+
+    }, {
+      "pagePath": "pages/reconmend/reconmend",
+      "text": "推荐",
+      "iconPath":"assets/img/tj.png",
+      "selectedIconPath":"assets/img/tj-1.png"
+
+    }, {
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath":"assets/img/search.png",
+      "selectedIconPath":"assets/img/search-1.png"
+      
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#282828",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle":"white"
+  }
+}

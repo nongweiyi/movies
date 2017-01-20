@@ -1,0 +1,21 @@
+<view class="content">
+    <view class="movie-pic">
+        <image src="{{movie.images.large}}"></image>
+    </view>
+
+    <view class="diviver"></view>
+
+    <view class="mar movie-info">
+        <view><text>名称：</text><text class="name">{{movie.title}}</text></view>
+        <text>{{movie.info}}</text> 
+        <view class="average">评分：{{movie.average}}</view>
+    </view>
+    <view class="mar casts-pic">
+        <block wx:for="{{movie.casts}}">
+            <image src="{{item.avatars.small}}"></image>
+        </block>
+    </view>
+    <view class="mar desc">
+        <text>简介：</text><text class="summary">{{movie.summary}}</text>
+    </view>
+</view>

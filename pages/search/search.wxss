@@ -1,0 +1,32 @@
+
+.search{
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: row;
+    padding:10px 20px ;
+}
+
+.search input{
+    background-color: white;
+    height: 40px;
+    width: 240px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.search button{
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    background-color: #DD5E0D;
+    color: white;
+    /*padding-right: 20px;*/
+    margin-left: 10px;
+}
+.btn-hover{
+     background-color: #B16739;
+}
+.inputText{
+    color: white;
+    padding: 0px 20px 10px 20px;
+}

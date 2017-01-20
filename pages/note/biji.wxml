@@ -1,0 +1,19 @@
+1.给给app添上tabbar:
+    在app.json上添加如下代码：
+     "tabBar": {
+    "backgroundColor": "#292929",
+    "list": [{
+      "pagePath": "pages/hot/hot",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/reconmend/reconmend",
+      "text": "电影推荐"
+    }, {
+      "pagePath": "pages/search/search",
+      "text": "电影搜索"
+    }]
+  },
+
+  2.使一个view中的内容居中：
+  justify-content:center;*/
+  align-items:center;

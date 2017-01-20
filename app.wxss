@@ -1,0 +1,73 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.content{
+    height: 100%;
+    background-color:#3a3a3a;
+    width: 100%;
+}
+
+.movie{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    height:150px;
+    width: 100%;
+    position: relative;
+}
+
+.pic image{
+    width: 100px;
+    height: 150px;
+    mode:aspectFit;
+    
+}
+.moview-info{
+    height: 150px;
+    overflow: hidden;
+    
+   
+}
+.base-info{
+    width: 200px;
+    height: 140px;
+    overflow: hidden;
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    
+   
+}
+.name{
+    font-size: 16px;
+    font-weight: bold;
+    color: #B16638;
+    margin-bottom:10px;
+}
+.base-info text{
+    line-height: 20px;
+}
+.diviver{
+    width: 100%;
+    border-bottom: 1px solid #7C7974;
+}
+.average{
+    color: navajowhite;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+

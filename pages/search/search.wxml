@@ -1,0 +1,9 @@
+<view class="content">
+    <view class="search">
+        <input bindinput="bindKeyInput" placeholder="输入类型/演员/导演/影片名" auto-focus />
+        <button hover-class="btn-hover" bindtap="search" >搜索</button>
+    </view>
+    <view class="inputText">您要搜索:{{inputVal}}</view>
+    <import src="../template/movie"/>
+    <template is="movieItem" data="{{movies}}"/>
+</view>

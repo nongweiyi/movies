@@ -1,0 +1,16 @@
+<template name="movieItem">
+ <block wx:for="{{movies}}">
+     <view class="movie" bindtap="detail" id="{{item.id}}">
+     
+        <view class="pic"><image src="{{item.images.small}}"></image></view>
+        <view classs="moview-info">
+           <view class="base-info">
+                <view class="name">{{item.title}}</view>
+                <text>{{item.info}}</text>
+            </view>
+        </view>
+           <text class="average">评分：{{item.average}}</text>
+    </view>
+    <view class="diviver"></view>
+  </block>
+</template>
